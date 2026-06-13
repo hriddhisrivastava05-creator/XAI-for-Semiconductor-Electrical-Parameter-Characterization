@@ -39,3 +39,18 @@ varying proton fluence (1×10¹³ to 1×10¹⁵ protons/cm²), using TCAD-simula
 - Matplotlib / Plotly for visualization
 
 ## Repository Structure
+├── data/                 # TCAD-generated dataset (or link if too large)
+
+├── notebooks/            # EDA, model training, XAI analysis
+
+├── src/
+
+│   ├── train_regression.py
+
+│   ├── train_classification.py
+
+│   └── xai_analysis.py   # SHAP + LIME feature importance
+
+├── results/              # confusion matrices, heatmaps, SHAP plots
+
+└── README.md
